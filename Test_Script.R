@@ -1,4 +1,6 @@
 # Hello, this is a test of git
+library(tidyverse)
+
 x <- seq(-100, 100)
 y <- 2*(x^2)
 error <- rnorm(length(x), mean = 0, sd = mean(y)/2)
